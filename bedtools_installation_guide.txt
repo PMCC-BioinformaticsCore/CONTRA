@@ -1,0 +1,6 @@
+Install BEDTools
+tar -zxvf BEDTools.tar.gz
+cd BEDTools
+make clean
+make all
+sudo cp bin/* /usr/local/bin/
